@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dentist | Khemnichak, Patna</title>
+<meta name="description" content="The Dentist — dental clinic in Shaligram Market, Khemnichak, Patna. Checkups, cleaning, filling, RCT, braces. Book on WhatsApp.">
+<meta name="theme-color" content="#0B1F3A">
+<meta property="og:title" content="The Dentist | Khemnichak, Patna">
+<meta property="og:description" content="Healthy smiles start here. Book your visit on WhatsApp in 2 minutes.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { ink: '#0B1F3A', teal: { DEFAULT: '#0E7C7B', dark: '#0A5C5B' }, mint: '#E7F4EF', gold: '#C9A227' },
+  fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] }
+}}};
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <svg viewBox="0 0 128 140" class="brand-mark" aria-hidden="true"><path d="M50 12 C30 12 18 28 18 52 C18 76 28 90 33 110 C36 123 47 123 49 110 C51 98 55 91 64 91 C73 91 77 98 79 110 C81 123 92 123 95 110 C100 90 110 76 110 52 C110 28 98 12 78 12 C70 12 66 18 64 18 C62 18 58 12 50 12 Z" fill="#0E7C7B"/><circle cx="98" cy="30" r="9" fill="#C9A227"/></svg>
+      <span><b data-en="The Dentist" data-hi="द डेंटिस्ट">The Dentist</b><small data-en="Khemnichak, Patna" data-hi="खेमनीचक, पटना">Khemnichak, Patna</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#treatments" data-en="Treatments" data-hi="इलाज">Treatments</a>
+      <a href="#visit" data-en="Visit" data-hi="पता व समय">Visit</a>
+      <a href="#book" data-en="Book" data-hi="बुक करें">Book</a>
+      <a href="#gallery" data-en="Photos" data-hi="तस्वीरें">Photos</a>
+      <button class="lang-btn" id="langBtn" aria-label="Language">हिंदी</button>
+      <a href="https://wa.me/919470650206?text=Namaste!%20Mujhe%20appointment%20chahiye." target="_blank" rel="noopener" class="btn-pill" data-en="Book on WhatsApp" data-hi="WhatsApp पर बुक करें">Book on WhatsApp</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <p class="eyebrow" data-en="Khemnichak, Patna · Dental Clinic" data-hi="खेमनीचक, पटना · डेंटल क्लिनिक">Khemnichak, Patna · Dental Clinic</p>
+  <h1><span data-en="A healthy smile" data-hi="स्वस्थ मुस्कान">A healthy smile</span><br><span class="accent" data-en="starts here." data-hi="यहीं से शुरू होती है।">starts here.</span></h1>
+  <p class="sub" data-en="Tooth pain, cleaning, fillings, braces — gentle care, clear talk, and booking on WhatsApp in 2 minutes." data-hi="दांत दर्द, सफाई, फिलिंग, ब्रेसेस — सौम्य इलाज, सीधी बात, और WhatsApp पर 2 मिनट में बुकिंग।">Tooth pain, cleaning, fillings, braces — gentle care, clear talk, and booking on WhatsApp in 2 minutes.</p>
+  <div class="cta-row">
+    <a class="btn-solid" data-magnet href="https://wa.me/919470650206?text=Namaste!%20Mujhe%20appointment%20chahiye." target="_blank" rel="noopener"><span data-en="Book on WhatsApp" data-hi="WhatsApp पर बुक करें">Book on WhatsApp</span></a>
+    <a class="btn-ghost" data-magnet href="tel:+919470650206"><span data-en="Call: 94706 50206" data-hi="कॉल करें: 94706 50206">Call: 94706 50206</span></a>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <svg viewBox="0 0 128 140" class="hero-tooth"><path d="M50 12 C30 12 18 28 18 52 C18 76 28 90 33 110 C36 123 47 123 49 110 C51 98 55 91 64 91 C73 91 77 98 79 110 C81 123 92 123 95 110 C100 90 110 76 110 52 C110 28 98 12 78 12 C70 12 66 18 64 18 C62 18 58 12 50 12 Z" fill="#ffffff"/><circle cx="98" cy="30" r="9" fill="#C9A227"/></svg>
+    <span class="chip c1" data-en="Gentle care" data-hi="सौम्य इलाज">Gentle care</span>
+    <span class="chip c2" data-en="Hindi + English" data-hi="हिंदी + English">Hindi + English</span>
+    <span class="chip c3" data-en="Evening batches" data-hi="शाम के बैच">Evening batches</span>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marqueeTrack"></div></div>
+
+<section class="stats">
+  <div class="stats-grid">
+    <div class="rv"><b><span data-count="7">0</span>+</b><span data-en="Treatments offered" data-hi="उपलब्ध इलाज">Treatments offered</span></div>
+    <div class="rv"><b><span data-count="6">0</span></b><span data-en="Days open weekly" data-hi="हफ़्ते में खुले दिन">Days open weekly</span></div>
+    <div class="rv"><b><span data-count="2">0</span></b><span data-en="Batches daily" data-hi="रोज़ के बैच">Batches daily</span></div>
+    <div class="rv"><b><span data-count="2">0</span>-min</b><span data-en="WhatsApp booking" data-hi="WhatsApp बुकिंग">WhatsApp booking</span></div>
+  </div>
+</section>
+
+<main>
+  <section id="treatments">
+    <div class="wrap">
+      <p class="kicker rv" data-en="Treatments" data-hi="इलाज">Treatments</p>
+      <h2 class="h2 rv"><span data-en="Everything your teeth need." data-hi="आपके दांतों की हर ज़रूरत।">Everything your teeth need.</span></h2>
+      <div class="grid-3" id="treatGrid"></div>
+      <p class="fine rv" data-en="Confused which one you need? Message us — we guide you before you visit." data-hi="समझ नहीं आ रहा क्या चाहिए? हमें message करें — आने से पहले ही बता देंगे।">Confused which one you need? Message us — we guide you before you visit.</p>
+    </div>
+  </section>
+
+  <section id="visit" class="band">
+    <div class="wrap visit-grid">
+      <div class="rv">
+        <p class="kicker" data-en="Visit us" data-hi="पधारें">Visit us</p>
+        <h2 class="h2 left"><span data-en="Near you, on your time." data-hi="आपके पास, आपके समय पर।">Near you, on your time.</span></h2>
+        <p class="addr">Shaligram Market, Khemnichak Road,<br>Patna 800027</p>
+        <p class="hours"><b data-en="Mon–Sat · Morning & Evening" data-hi="सोम–शनि · सुबह और शाम">Mon–Sat · Morning & Evening</b><br><span data-en="Call ahead to confirm today's hours." data-hi="आज का समय confirm करने के लिए कॉल कर लें।">Call ahead to confirm today's hours.</span></p>
+        <div class="cta-row left">
+          <a class="btn-solid" data-magnet href="https://www.google.com/maps/search/?api=1&query=The+Dentist+Shaligram+Market+Khemnichak+Road+Patna+800027" target="_blank" rel="noopener"><span data-en="Get Directions" data-hi="रास्ता देखें">Get Directions</span></a>
+          <a class="btn-ghost" data-magnet href="tel:+919470650206"><span data-en="Call clinic" data-hi="क्लिनिक को कॉल करें">Call clinic</span></a>
+        </div>
+      </div>
+      <div class="visit-card rv">
+        <p class="visit-card-title" data-en="Why patients choose us" data-hi="मरीज़ हमें क्यों चुनते हैं">Why patients choose us</p>
+        <ul>
+          <li data-en="Fees and timings told upfront — no surprises." data-hi="फीस और समय पहले ही बता दिया जाता है।">Fees and timings told upfront — no surprises.</li>
+          <li data-en="Hindi and English, explained simply." data-hi="हिंदी और English में, आसान भाषा में समझाया जाता है।">Hindi and English, explained simply.</li>
+          <li data-en="Evening batches for working people." data-hi="कामकाजी लोगों के लिए शाम के बैच।">Evening batches for working people.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" hidden>
+    <div class="wrap">
+      <p class="kicker rv" data-en="Clinic gallery" data-hi="क्लिनिक की झलक">Clinic gallery</p>
+      <h2 class="h2 rv"><span data-en="Step inside." data-hi="अंदर से देखिए।">Step inside.</span></h2>
+      <div class="gal-grid" id="galGrid"></div>
+    </div>
+  </section>
+
+  <div class="viewer" id="viewer" hidden>
+    <button aria-label="Close" onclick="closeViewer()">×</button>
+    <img id="viewerImg" alt="">
+    <p id="viewerCap"></p>
+  </div>
+
+  <section id="book">
+    <div class="wrap narrow">
+      <p class="kicker rv" data-en="Book a visit" data-hi="अपॉइंटमेंट बुक करें">Book a visit</p>
+      <h2 class="h2 rv"><span data-en="2 minutes on WhatsApp." data-hi="WhatsApp पर 2 मिनट में।">2 minutes on WhatsApp.</span></h2>
+      <form class="book-form rv" id="bookForm">
+        <label><span data-en="Your name" data-hi="आपका नाम">Your name</span><input id="bkName" required maxlength="60" autocomplete="name"></label>
+        <label><span data-en="Treatment" data-hi="इलाज">Treatment</span><select id="bkTreat"></select></label>
+        <label><span data-en="Preferred day" data-hi="कौन-सा दिन">Preferred day</span><select id="bkDay"></select></label>
+        <button class="btn-solid big" type="submit"><span data-en="Confirm on WhatsApp →" data-hi="WhatsApp पर कन्फर्म करें →">Confirm on WhatsApp →</span></button>
+        <p class="note" data-en="Opens WhatsApp with your booking typed out. Just press send." data-hi="आपकी बुकिंग लिखी हुई WhatsApp खुलेगी। बस send दबाइए।">Opens WhatsApp with your booking typed out. Just press send.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot">
+    <div class="foot-brand"><b>The Dentist</b><span>Khemnichak, Patna</span></div>
+    <div class="foot-links">
+      <a href="tel:+919470650206">+91 94706 50206</a>
+      <a href="https://wa.me/919470650206" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div class="legal"><span>© 2026 The Dentist.</span><span>Website by <a href="https://dipc.site">DIPC</a></span></div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
